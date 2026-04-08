@@ -80,6 +80,7 @@ from lerobot.robots import (  # noqa: F401
     omx_follower,
     openarm_follower,
     reachy2,
+    robstride_follower,
     so_follower,
     unitree_g1 as unitree_g1_robot,
 )
@@ -96,6 +97,7 @@ from lerobot.teleoperators import (  # noqa: F401
     omx_leader,
     openarm_leader,
     openarm_mini,
+    robstride_leader,
     reachy2_teleoperator,
     so_leader,
     unitree_g1,

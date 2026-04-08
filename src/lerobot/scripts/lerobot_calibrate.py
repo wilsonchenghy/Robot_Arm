@@ -44,6 +44,7 @@ from lerobot.robots import (  # noqa: F401
     make_robot_from_config,
     omx_follower,
     openarm_follower,
+    robstride_follower,
     so_follower,
 )
 from lerobot.teleoperators import (  # noqa: F401
@@ -57,6 +58,7 @@ from lerobot.teleoperators import (  # noqa: F401
     omx_leader,
     openarm_leader,
     openarm_mini,
+    robstride_leader,
     so_leader,
     unitree_g1,
 )

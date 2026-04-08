@@ -91,6 +91,10 @@ def make_teleoperator_from_config(config: TeleoperatorConfig) -> "Teleoperator":
         from .openarm_leader import OpenArmLeader
 
         return OpenArmLeader(config)
+    elif config.type == "robstride_arm_leader":
+        from .robstride_leader import RobstrideArmLeader
+
+        return RobstrideArmLeader(config)
     elif config.type == "bi_openarm_leader":
         from .bi_openarm_leader import BiOpenArmLeader
 
